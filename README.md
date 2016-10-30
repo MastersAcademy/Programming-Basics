@@ -1,5 +1,7 @@
 Masters Academy Programming Basics courses project for season 2016/2017
---------------------
+-----------------------------------------------------------------------
+[![Join the chat at https://gitter.im/Masters-Academy/Programming-Basics-2016](https://badges.gitter.im/ZhuChara2004/MA-Summer-Practice-2016.svg)](https://gitter.im/Masters-Academy/Programming-Basics-2016?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 Terms and conditions
 --------------------
