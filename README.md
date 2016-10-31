@@ -1,9 +1,11 @@
 Masters Academy Programming Basics courses project for season 2016/2017
---------------------
+-----------------------------------------------------------------------
+[![Join the chat at https://gitter.im/Masters-Academy/Programming-Basics-2016](https://badges.gitter.im/ZhuChara2004/MA-Summer-Practice-2016.svg)](https://gitter.im/Masters-Academy/Programming-Basics-2016?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 Terms and conditions
 --------------------
- * Це документ визначає та декларує чим є курси з Основ програмування які проводить Masters Academy в 2016-2017 рр.
+ * Цей документ визначає та декларує чим є курси з Основ програмування які проводить Masters Academy в 2016-2017 рр.
  * Курси проводяться Masters Academy, на безоплатній добровільній основі.
  * Метою проведення курсів є допомога зацікавленим особам у вивченні основ програмування з використанням мови програмування Python.
  * Курси є добровільною освітньою ініціативою, метою якої є донесення корисної інформації у зручний для обох сторін спосіб, із орієнтацією на самомотивованість відвідувачів, обопільну цікавість процессу та взаємне збагачення та обмін досвідом.
