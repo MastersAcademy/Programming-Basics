@@ -1,2 +1,2 @@
 it's done.
-I trying to study Git, changing some information.
+I'm trying to study Git, changing some information.
