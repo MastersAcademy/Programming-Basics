@@ -11,3 +11,6 @@
 
 ### Console inputs
 Приклад, в якому відбувається введення даних з консолі
+
+### Screencast
+[![Session 01 - Python Basics ](https://img.youtube.com/vi/kkW-RQTiGsk/0.jpg)](https://www.youtube.com/watch?v=kkW-RQTiGsk)
