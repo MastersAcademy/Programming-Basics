@@ -37,7 +37,7 @@ Project structure
 
 To be Deleted
 ----------------------
-This is a sample section and will be deleted
+This is a sample section and will be deleted. New sentence added.
 
 
 Projects for teams(це загальні теми, вони будуть уточнюватися та доповнюватися, можна помінятися темами довільно)
