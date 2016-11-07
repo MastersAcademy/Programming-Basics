@@ -31,7 +31,7 @@ print("and you like", answer_3)
 
 print("Your rating of Mater Academy is", answer_2, "Describe why?")
 
-
+#Записываем ответ в файл дата и сохраняем для статистики
 data = f2.write(input())
 f.close()
 f2.close()
