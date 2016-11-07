@@ -8,7 +8,6 @@ planet = str(input('Enter your current location planet: '))
 with open('visitors.txt', 'a') as file:
     now = datetime.datetime.now()
     file.write(now.strftime('%d-%m-%Y %H:%M:%S') + '\t' + name + ' : ' + planet + '\n')
-file.close()
 
 print(('\n' + 'Greetings %s from %s!' + '\n' + 'Data stored without your agreement!' + '\n' + 'Bye!') % (name, planet))
 
