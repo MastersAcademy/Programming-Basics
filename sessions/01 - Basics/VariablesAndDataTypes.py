@@ -34,6 +34,7 @@ hello_world_two = "%s %s" % (hello_string, world_string)
 three_int = one_int + 2
 
 print(hello_world_one)
+print(hello_world_two)
 print(three_int)
 print(pi_float + three_int)
 print(str(pi_float + three_int) + ' ' + str((pi_float + three_int).__class__))
@@ -43,3 +44,5 @@ print(str(pi_float + three_int) + ' ' + str((pi_float + three_int).__class__))
 print("Hello world old: " + hello_world_one)
 hello_world_one = "Hello World Reassigned"
 print("Hello world new: " + hello_world_one)
+hello_world_one = 125
+print("Hello world integer: %i" % hello_world_one)
