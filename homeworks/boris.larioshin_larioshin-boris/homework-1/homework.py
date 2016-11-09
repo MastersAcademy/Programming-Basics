@@ -1,0 +1,16 @@
+# version 1
+name = input("What is your name? ")
+surname = input("What is your surname? ")
+age = int(input("How old are you? "))
+city = input("Where do you live? ")
+file_out_one = open('About_myself.txt', 'w')
+print('name\n', file=file_out_one)
+print('surname\n', file=file_out_one)
+print('age\n', file=file_out_one)
+print('city\n', file=file_out_one)
+file_out_one.close()
+# version 2
+file_out_two = open("About_my_family.txt", 'w')
+print(input('What is your mother name? ') + '\n' + input("What is your father name? "), file=file_out_two)
+file_out_two.close()
+print('Your data save to file')
