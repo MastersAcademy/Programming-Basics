@@ -1,8 +1,4 @@
-name
-
-surname
-
-age
-
-city
-
+Boris
+Larioshin
+30
+Cherkassy

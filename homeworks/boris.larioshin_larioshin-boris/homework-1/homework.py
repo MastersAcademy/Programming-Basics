@@ -1,13 +1,13 @@
 # version 1
 name = input("What is your name? ")
 surname = input("What is your surname? ")
-age = int(input("How old are you? "))
+age = input("How old are you? ")
 city = input("Where do you live? ")
 file_out_one = open('About_myself.txt', 'w')
-print('name\n', file=file_out_one)
-print('surname\n', file=file_out_one)
-print('age\n', file=file_out_one)
-print('city\n', file=file_out_one)
+file_out_one.write(name+'\n')
+file_out_one.write(surname+'\n')
+file_out_one.write(age+'\n')
+file_out_one.write(city)
 file_out_one.close()
 # version 2
 file_out_two = open("About_my_family.txt", 'w')
