@@ -1,13 +1,15 @@
-# version 1
+# Hometask №1
 name = input("What is your name? ")
 surname = input("What is your surname? ")
 age = input("How old are you? ")
 city = input("Where do you live? ")
-file_out_one = open('About_myself.txt', 'w')
-file_out_one.write(name+'\n')
-file_out_one.write(surname+'\n')
-file_out_one.write(age+'\n')
-file_out_one.write(city)
+file_out = open('User_profile.txt', 'w')
+file_out.write("**********User profile*************\n")
+file_out.write("My name is:"+name+'\n')
+file_out.write("My surnamy is:"+surname+'\n')
+file_out.write("I am"+age+"year old"+'\n')
+file_out.write("I live in :"+city+'\n')
+file_out.write("*************************************")
 file_out_one.close()
 # version 2
 file_out_two = open("About_my_family.txt", 'w')
