@@ -1,0 +1,5 @@
+--- === Information about user === ---
+Users's full name is Vasya Pupkin
+Salary is 1234 USD
+Answer to the Ultimate Question of Life, the Universe, and Everything is 42
+--- === End of file === ---
