@@ -1,8 +1,8 @@
 import time
 from datetime import date
-print("✰✰✰✰✰✰✰✰✪✪✪✪✪✪✯✯✯✯✵✯✯✯✯✪✪✪✪✪✪✰✰✰✰✰✰✰✰")
+print('✰✰✰✰✰✰✰✰✪✪✪✪✪✪✯✯✯✯✵✯✯✯✯✪✪✪✪✪✪✰✰✰✰✰✰✰✰')
 name = input("Your name is..")
-print("Hello", name,"it is the date of your birthday calculator" )
+print("Hello", name,"it is the calculator of days to your birthday" )
 today = date.today()
 day_b = int(input("The day of your birthday is.."))
 month_b = int(input("The month of your birthday is.."))
@@ -17,4 +17,3 @@ print("✰✰✰✰✰✰✰✰✪✪✪✪✪✪✯✯✯✯✵✯✯✯✯✪�
 z = open('file_1.txt', 'w')
 z.write(conclusion)
 z.close()
-
