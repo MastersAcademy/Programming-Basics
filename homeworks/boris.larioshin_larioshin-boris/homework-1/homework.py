@@ -4,15 +4,16 @@ surname = input("What is your surname? ")
 age = input("How old are you? ")
 city = input("Where do you live? ")
 file_out = open('User_profile.txt', 'w')
+# Write in file
 file_out.write("**********User profile*************\n")
-file_out.write("My name is:"+name+'\n')
-file_out.write("My surnamy is:"+surname+'\n')
-file_out.write("I am"+age+"year old"+'\n')
-file_out.write("I live in :"+city+'\n')
+file_out.write("My name is: "+name+'\n')
+file_out.write("My surname is: "+surname+'\n')
+file_out.write("I am "+age+" year old"+'\n')
+file_out.write("I live in: "+city+'\n')
 file_out.write("*************************************")
 file_out.close()
-# version 2
-# file_out_two = open("About_my_family.txt", 'w')
-# print(input('What is your mother name? ') + '\n' + input("What is your father name? "), file=file_out_two)
-# file_out_two.close()
-# print('Your data save to file')
+# Print on screen
+file_in = open('User_profile.txt', 'r')
+for line in file_in:
+    print(line, end='')
+
