@@ -92,3 +92,6 @@ ENV/
 # Rope project settings
 .ropeproject
 
+sessions/00 - Intro/
+sessions/Basics/
+somefile.txt
