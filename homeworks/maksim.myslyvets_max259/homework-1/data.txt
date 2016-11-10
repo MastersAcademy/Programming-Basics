@@ -1,3 +1,4 @@
-maxim
-mislivets
-max259
+name: Max
+surname: Myslyvets
+age: 36
+login: max259
