@@ -9,7 +9,7 @@ print("Your name and lastmane is %s %s, your age is %i, "
 
 #write data in file
 filename=name+'_'+last_name+".csv"
-f = open(filename, 'a')
+f = open(filename,'w')
 data_to_write=name+";"+last_name+";"+str(age)+";"+country+'\n'
 f.write(data_to_write)
 f.close
