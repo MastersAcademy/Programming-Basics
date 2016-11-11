@@ -1,6 +1,7 @@
-First name: Vasyl
-Second name: Shcherbatenko
-Size footwear: 
-Your number card: 
-Age: 21
-Favorit phone: 
+First name: Vasyl 
+Second name: Shcherbatenko 
+Size footwear: 45 
+Age: 21 
+Hobby: football 
+Favorite Phone: Nokia 
+Favorite artists: Nirvana, Metallica, Lumen and other

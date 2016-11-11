@@ -1,32 +1,16 @@
-f = open('questionnaire.txt', 'w')
-# Ім'я
-First_Name=str(input("Tell me please your first name: "))
-print(First_Name+'\n')
-f.write("First name: "+First_Name+'\n')
+#var
+First_name=str(input('Tell me please your first name: '))
+Second_name=str(input('Tell me please your second name: '))
+Size_footwear=input('Please tell us your shoe size: ')
+Age=input('How old are you: ')
+Hobby=input('Your favorite activity: ')
+Phone=input('Your favorite brand of phone: ')
+Music=input('What are your favorite artists: ')
 
-#Прізвище
-Second_Name=str(input("Tell me please your second name: "))
-print (Second_Name+'\n')
-f.write('Second name: '+Second_Name+'\n')
-
-#Розмір взуття
-Size_footwear=str(input("Tell me please your shoe size: "))
-print(Size_footwear+'\n')
-f.write('Size footwear: '+'\n')
-
-#Номер вашої банківської карти)
-Bank=str(input('Tel me plese number of your bank card): '))
-print(Bank+'\n')
-f.write('Your number card: '+'\n')
-
-#вік
-Age=str(input("How old are you: "))
-print(Age+'\n')
-f.write("Age: "+Age+'\n')
-
-#Улюблена марка телефона
-Telephone=str(input('Who is the favorite brand please phone: '))
-print(Telephone+'\n')
-f.write('Favorit phone: '+'\n')
-
+#Working with files and output to the screen
+f=open('questionnaire.txt','w')
+result='First name: %s \nSecond name: %s \nSize footwear: %s \nAge: %s \nHobby: %s \nFavorite Phone: %s \nFavorite artists: %s'\
+       %(First_name,Second_name,Size_footwear,Age,Hobby,Phone,Music)
+print(result)
+f.write(result)
 f.close()
