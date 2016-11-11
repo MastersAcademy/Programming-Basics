@@ -1,0 +1,6 @@
+**********User profile*************
+My name is: Boris
+My surname is: Larioshin
+I am 30 year old
+I live in: Cherkassy
+*************************************
