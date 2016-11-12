@@ -1,5 +1,5 @@
 print ("Hello friend!")
-name = str(input ("What is your name? "))
+name = (input ("What is your name? "))
 surname = input ("What is your surname? ")
 age = int(input("How old are you? "))
 city = input ("Where do you live? ")
