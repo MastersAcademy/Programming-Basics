@@ -1,0 +1,1 @@
+name is %s, surname is %s, age is i%, city is %s
