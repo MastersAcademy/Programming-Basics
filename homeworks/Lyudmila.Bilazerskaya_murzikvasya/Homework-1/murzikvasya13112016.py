@@ -1,4 +1,4 @@
-f = open("homework1vasya.txt",'w',encoding="utf8")
+﻿f = open("homework1vasya.txt",'w',encoding="utf8")
 
 name = input("What is your name? ")
 print("Hi", name)
