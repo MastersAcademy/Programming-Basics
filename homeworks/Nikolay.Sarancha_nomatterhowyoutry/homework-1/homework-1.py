@@ -1,4 +1,4 @@
-name = raw_input ("Tell us your name. ")
+name = raw_input("Tell us your name. ")
 where = raw_input("Where you came from, %s ? " %(name))
 age = int(input("How old are you? "))
 
