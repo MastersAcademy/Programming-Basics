@@ -12,7 +12,6 @@ age = int(input("В каком году ты родился? Например '1
 hobby = input("Какое у тебя хобби?:")
 date_of_birth = 2016 - age
 
-
 # Вывод данных
 
 data = "Я узнал что тебя зовут %s %s, тебе %i лет. Твое хобби %s." % (name, surname, date_of_birth, hobby)
