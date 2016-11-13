@@ -23,3 +23,4 @@ print("Спасибо за участие")
 file_info = open("info.txt", "w")
 file_info.write(data)
 file_info.close()
+
