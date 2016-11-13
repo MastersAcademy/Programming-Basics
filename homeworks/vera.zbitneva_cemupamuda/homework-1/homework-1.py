@@ -7,7 +7,7 @@ game = str(input("Enter your favorite game: "))
 
 #output on display
 t = ("Hello %s %s, You just %i years! I also live in the city %s. By the way, %s also my favorite game! " %(name, surname, age, city, game))
-
+print(t)
 #create file
 file = open('account.txt', 'w')
 file.write(t)
