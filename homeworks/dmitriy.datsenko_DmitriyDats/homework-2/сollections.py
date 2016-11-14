@@ -3,7 +3,7 @@ fileName = 'demo.txt'
 # It opens the file for writing only. Index stands at the beginning of
 # the file. Creates a file with the filename, if such does not exist.
 accessMode = 'w'
-# Dictionaries
+# Collections(Dictionaries)
 user_info = {
     'user_name': str(input('What is your name? ')),
     'user_surname': str(input('What is your surname? ')),
