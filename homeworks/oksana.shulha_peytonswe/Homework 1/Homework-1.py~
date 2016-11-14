@@ -11,7 +11,7 @@ profession = input("What is your profession? ")
 phone_number = str(input("What is your phone number? "))
 email_address = str(input("What is your email address? "))
 
-#information
+
 info = str("Well, your name is %s, you're a %s.\n"
        "You was born in %i and you're %i years old.\n"
        "You're from %s, your nationality is %s.\n"
