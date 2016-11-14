@@ -1,0 +1,2 @@
+Your name is Vitalii Yatsenko and your gender is Man. Your age is 21. You live in Cherkassy and you are Student.
+{'Hobbies': ['rock-band The Signs (guitar)', 'football'], 'Vitalii Yatsenko': {'Age': 21, 'Employment': 'Student', 'Addres': 'Cherkassy'}}
