@@ -1,0 +1,16 @@
+print("Hello! Please, enter your personal data.")
+fileName = "PersonalData.txt"
+accessMode="w"
+name = input("What is your name? ")
+surname = input("What is your surname? ")
+age = int(input("How old are you? "))
+mobile = int(input("Telephone number: "))
+address = input("Enter your home address: ")
+email = input("E-mail: ")
+answer1 = ("Congratulations!!! Dear %s, thank you for registering on our website.\n" % (name))
+answer2 = ("We will send you the message to mobile %i or e-mail %s with your entering data." % (mobile, email))
+File = open(fileName,accessMode)
+File.write(answer1)
+File.write(answer2)
+File.close()
+print("Congratulations!!! Dear %s, thank you for registering on our website.\n We will send you the message to mobile %i or e-mail %s with your entering data.\n WELCOME!" % (name, mobile, email))
