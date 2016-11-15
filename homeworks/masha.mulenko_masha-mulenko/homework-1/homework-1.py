@@ -1,0 +1,8 @@
+name = input ("please enter your name ")
+age = int(input("please enter your age "))
+address = input ("please enter your address ")
+answers = ("Hello, %s , why you so young in %i and you live here - %s" %(name,age, address))
+print (answers)
+file = open("answers.txt", "w")
+file.write(answers)
+file.close()
