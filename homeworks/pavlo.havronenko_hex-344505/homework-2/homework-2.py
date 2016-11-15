@@ -7,7 +7,6 @@ user["Name"] = input ("What is Your Name => ")
 user["Location"] = input ("Where are You From => ")
 cust_age = input ("How Old Are You => ")
 
-
 if not cust_age.isdigit():
     cust_age = input ("Provide only numders for age, try once again => ")
 user["Birth"] = str(datetime.datetime.now().year - int(cust_age))
