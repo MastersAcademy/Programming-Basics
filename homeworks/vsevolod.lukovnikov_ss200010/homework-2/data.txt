@@ -1,0 +1,5 @@
+User data:
+ name: seva
+ surname: lukovnikoff
+ age: 33
+ profession: engineer
