@@ -31,3 +31,21 @@ f.write("===============================" + '\n' )
 f.write("Dictionary" + '\n')
 f.write(str(d))
 f.close()
+
+s = set()
+s.add(name)
+s.add(surname)
+s.add(age)
+s.add(login)
+
+
+print(' ')
+print('Preview of Set with User data')
+print(' ')
+print(s)
+
+f = open('data.txt', 'a')
+f.write('\n' + "===============================" + '\n' )
+f.write("Set" + '\n')
+f.write(str(s))
+f.close()
