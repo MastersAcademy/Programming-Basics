@@ -1,1 +1,0 @@
-Your answer was:  1)What is you name: Vadim; 2)Your age? 10; 3)Do you like 'Python' language? yes
