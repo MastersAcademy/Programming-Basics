@@ -46,8 +46,6 @@ if edit == "30":
     print("After sort" + str(arr))
 
 
-
-#
-# toFile = "data.txt"
-# with open(toFile, 'w') as file_object:
-#        file_object.write(str(auto_complit))
+ toFile = "data.txt"
+ with open(toFile, 'w') as file_object:
+        file_object.write(str(auto_complit))
