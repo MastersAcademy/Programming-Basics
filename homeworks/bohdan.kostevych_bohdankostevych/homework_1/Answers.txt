@@ -1,0 +1,4 @@
+Your name is: Bohdan 
+ You live in: Cherkassy 
+ You are: 21 years old 
+ Your street is named: Checkhova 211-5
