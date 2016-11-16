@@ -39,9 +39,15 @@ if edit == "20":
     print("Delete number: " + str(delNum_1))
     print("Array: " + str(auto_complit))
 
-# if edit == "30":
+if edit == "30":
+    arr = [2, 3, 4, 1, 0, 20, 1]
+    print("Before sort" + str(arr))
+    arr.sort()
+    print("After sort" + str(arr))
 
 
-toFile = "data.txt"
-with open(toFile, 'w') as file_object:
-       file_object.write(str(auto_complit))
+
+#
+# toFile = "data.txt"
+# with open(toFile, 'w') as file_object:
+#        file_object.write(str(auto_complit))
