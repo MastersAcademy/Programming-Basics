@@ -1,1 +1,0 @@
-name - dmytro, age - 38, city - Cherkassy .
