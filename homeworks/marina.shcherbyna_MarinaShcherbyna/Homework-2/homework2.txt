@@ -1,0 +1,1 @@
+{'additional information': {'education': 'CHNU', 'phone': '0974890986'}, 'name': 'Marina', 'surname': 'Fanina', 'address': 'Cherkassy', 'profession': 'Teacher', 'dob': '22-06-1988'}
