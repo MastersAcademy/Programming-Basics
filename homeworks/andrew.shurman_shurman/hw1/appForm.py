@@ -1,0 +1,7 @@
+name = input("Hi! What is your name?\n")
+surname = input("Also tell me your surname\n")
+age = int(input("So, %s, how old are you?\n" %(name)))
+print("Thanks, we will write info about you in that txt file in the same folder.")
+file = open("that.txt","w")
+file.write("%s %s is %i years old" %(name, surname, age))
+file.close()
