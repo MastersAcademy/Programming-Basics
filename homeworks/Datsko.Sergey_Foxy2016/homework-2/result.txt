@@ -1,6 +1,0 @@
-Your results:
-Name- Argent;
-Age- 17;
-Hobby- Music;
-Color- Blu;
-Language- Yes.
