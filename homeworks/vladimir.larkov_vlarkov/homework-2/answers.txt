@@ -1,0 +1,5 @@
+ === Information about user === 
+full_name: Vasya Pupkin
+salary: 1423 USD
+answer: 42
+ === End of file === 
