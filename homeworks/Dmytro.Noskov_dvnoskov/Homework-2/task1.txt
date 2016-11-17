@@ -1,1 +1,0 @@
-['Dmitry', 38, 'Cherkassy', {'first_stat': 'Admin', 'skill': 'yes', 'rum': 'A12', 'stat_rum': 'yes'}]
