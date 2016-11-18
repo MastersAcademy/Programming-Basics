@@ -1,9 +1,6 @@
-# creation of new lists
-
 import time
 print("Nice to meet you!")
-
-list_1 = [1, 2, 3, 4]
+time.sleep(2)
 print("---===+++ Waiting for loading +++===---")
 time.sleep(1)
 print("3")
@@ -31,29 +28,72 @@ address_term = int(input("How long you live there?(in years)"))
 job = input("Where you want to work?")
 payment = int(input("How much you want to earn per month?(in USD)"))
 full_name = "%s %s" % (first_name, surname)
-
+time.sleep(2)
 print("Nice job!!!")
+time.sleep(2)
 print("Let's see you results:")
+time.sleep(2)
 print("Your full name is %s,  your age is %i, you gender is %s (we hope so). You live in %s during %i years and study\
- (or studied) in %s. .)" % (full_name, age, gender, address, address_term, study))
+ (or studied) in %s." % (full_name, age, gender, address, address_term, study))
 print("Also we know that you want to work in %s, and you  want to get %i dollars per month" % (job, payment))
 
 hobby = input("What hobbies you have?")
 skill = input("What is your main skill?")
 
-dict_1 = {'Name': first_name,
-          'Last name': surname,
-          'Age': age,
-          'Gender': gender}
+# add dictionaries
+dict_1 = {'Student': {'Name': first_name,
+                      'Last name': surname,
+                      'Age': age,
+                      'Gender': gender},
+          'hobby': hobby,
+          'skill': skill}
 
 dict_2 = {"Address": address,
           'Living during': address_term,
           'Education': study}
 print(dict_1)
-
 dict_1['other'] = dict_2
 time.sleep(3)
 print(dict_1)
+
+# add lists
+print("***** Data list *****")
+list_1 = [first_name, surname, gender]
+print(list_1)
+time.sleep(3)
+print("Data list updating")
+time.sleep(3)
+list_1.append(age)
+print(list_1)
+time.sleep(3)
+print("------- Loading addition data list ------")
+list_2 = [address, study, job]
+time.sleep(3)
+print(list_2)
+time.sleep(3)
+print("Wait a moment. List is updating")
+list_3 = [list_1, list_2, hobby, skill]
+time.sleep(3)
+print(list_3)
+time.sleep(3)
+print("_____ Formatting data_____")
+list_2.remove(study)
+list_2.remove(job)
+time.sleep(2)
+print(list_3)
+time.sleep(2)
+print("===== STREAMLINE DATA =====")
+time.sleep(2)
+list_3.sort()
+print(list_3)
+time.sleep(3)
+list_3.sort(reverse=True)
+time.sleep(3)
+print("**** Creating unique data ****")
+set_1 = set(list_3)
+time.sleep(3)
+print(set_1)
+time.sleep(4)
 
 # print("Thank you for using this app. We made a short resume of you personal data.")
 # print("You can see that in RESUME.txt")
