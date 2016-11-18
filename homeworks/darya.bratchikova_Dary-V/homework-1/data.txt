@@ -1,1 +1,1 @@
-Name, surname: Dary B.; age: 17; job: none; phone number: classified.
+Name, surname: Darya Bratchikova; age: 17; job: None; phone number: 01020304.
