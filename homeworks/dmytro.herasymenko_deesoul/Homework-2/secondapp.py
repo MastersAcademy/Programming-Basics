@@ -95,35 +95,35 @@ time.sleep(3)
 print(set_1)
 time.sleep(4)
 
-# print("Thank you for using this app. We made a short resume of you personal data.")
-# print("You can see that in RESUME.txt")
+print("Thank you for using this app. We made a short resume of you personal data.")
+print("You can see that in RESUME.txt")
 
 # info saving
-# resume = "Full name - %s. Gender - %s. Age - %i. Living place - %s. Wanted place of job - %s. Wanted payment - %i." \
-#          % (full_name, gender, age, address, job, payment)
-#
-# file = open("RESUME.txt", 'w')
-# file.write(resume)
-# file.close()
-#
-# # start of info checking
-# time.sleep(5)
-# print("---===Wait for file checking===---")
-# print("5")
-# time.sleep(1)
-# print("4")
-# time.sleep(1)
-# print("3")
-# time.sleep(1)
-# print("2")
-# time.sleep(1)
-# print("1")
-# time.sleep(1)
-#
-# # info checking
-# print("Data content:")
-# content = open("RESUME.txt")
-# content_string = content.read()
-# print(content_string)
-#
-# print("Good luck and see you later!!!")
+resume = "Full name - %s. Gender - %s. Age - %i. Living place - %s. Wanted place of job - %s. Wanted payment - %i." \
+         % (full_name, gender, age, address, job, payment)
+
+file = open("RESUME.txt", 'w')
+file.write(resume)
+file.close()
+
+# start of info checking
+time.sleep(5)
+print("---===Wait for file checking===---")
+print("5")
+time.sleep(1)
+print("4")
+time.sleep(1)
+print("3")
+time.sleep(1)
+print("2")
+time.sleep(1)
+print("1")
+time.sleep(1)
+
+# info checking
+print("Data content:")
+content = open("RESUME.txt")
+content_string = content.read()
+print(content_string)
+
+print("Good luck and see you later!!!")
