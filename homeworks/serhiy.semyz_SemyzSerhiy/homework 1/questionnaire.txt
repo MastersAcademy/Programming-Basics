@@ -1,0 +1,5 @@
+ name: Сергейй 
+surname: Семиз 
+Age: 21 
+hobby: спорт,книги 
+e-mail: 80937588895@mail.ru
