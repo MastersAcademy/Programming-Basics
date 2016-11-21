@@ -53,9 +53,3 @@ if choise == "y":
 else:
     print("0k")
 print("Tank you for attention)")
-
-
-
-
-
-
