@@ -1,0 +1,5 @@
+phone: 999999
+age: 21
+place: Cherkasy
+name: Olya
+email: eee

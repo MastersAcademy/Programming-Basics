@@ -1,0 +1,1 @@
+print ("tell me plz first 5 principles of OOP") s = input ("first ") o = input ("second ") l = input ("third ") i = input ("fourth ") d = input ("fifth ") solid = ("1 -> %s; 2 -> %s; 3 -> %s; 4 -> %s; 5 -> %s" %(s,o,l,i,d)) file = open ("solid.txt", "w") file.write(solid) file.close() print(solid)

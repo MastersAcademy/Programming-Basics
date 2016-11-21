@@ -1,0 +1,9 @@
+Dmitry
+Lemeshko
+Ch
+29
+Python
+
+ Dmitry Lemeshko, you are from Ch.
+ You are 29 years old and you like Python
+Dictionary Card : {'DHobby': 'Python', 'DAge': 29, 'DPlace': 'Ch', 'DLastName': 'Lemeshko', 'DFirstName': 'Dmitry'}

@@ -1,0 +1,6 @@
+Your data:
+name Jorik;
+surname Givargyan;
+age 48;
+e-mail gogo@ukr.zet;
+login jg.
