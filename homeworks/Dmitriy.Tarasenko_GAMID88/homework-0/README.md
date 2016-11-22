@@ -1,2 +1,0 @@
-Well
-Homework-0

@@ -1,0 +1,6 @@
+
+Some of the information you entered:
+Word: Hello all
+Nickname: xScreamjkee
+Age: 22
+Country: Ukraine

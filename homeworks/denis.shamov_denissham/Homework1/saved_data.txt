@@ -1,1 +1,1 @@
-Name - Denis, Second name - Shamov, age - 27, City - Cherkassy
+Name - Den, Second name - Sham, age - 27, City - CHE
