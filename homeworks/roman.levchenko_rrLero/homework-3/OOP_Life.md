@@ -3,6 +3,8 @@
 **Class**
 ------------
 _Class = Tennis Racquet_   
+> I follow method Single responsibility Description of racquet 
+> if i want add in my class Painting in some colour i will add another class painting racquet 
 
 **Methods:**
 
@@ -54,4 +56,6 @@ _Class = Tennis Racquet_
 * level 2 = Racquet with strings
 * Level 3 = Racquet to play some sport
 * Level 4 = Some Object with unknown geometry
-		
+
+> Interface segregation: in my sample i have to divide my methods, because a lot of interfaces its bad.
+> I have to separate Class on two Classes: Class Racquet Brand, and Class Racquet Characteristics 
