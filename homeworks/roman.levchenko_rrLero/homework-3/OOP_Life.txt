@@ -1,0 +1,50 @@
+<b>Sample Tennis Raquet</b>
+
+--------------------Class----------------------
+Class = Tennis Raquet   
+
+
+Methods:
+    * set GripSize,
+	* set Head size,
+	* set Weight,
+	* set Brand
+
+Objects:
+    * Tennis raquet with GripSize = 4 3/8, Head size = 630 cm**2, Weight = 320 g, Brand = Babolat
+	* Tennis raquet with GripSize = 4 1/2, Head size = 690 cm**2, Weight = 290 g, Brand = Wilson
+
+----------------Inheritance--------------------
+<b>Raquet for squash</b>
+
+Class Raquet for squash = Class Tennis raquet + add another geometry of head
+
+Method: 
+    * change geometry of head
+
+Object: 
+    * Raquet for squash with triangle geometry with GripSize = 3, Head size = 450 cm**2, Weight = 250 g, Brand = Nike
+
+---------------encapsulation--------------------
+Class = Tennis Raquet   
+
+public:
+	* GripSize,
+	* Head size,
+	* Weight,
+	* Brand
+
+protected:
+	* string tension
+	* material of raquet
+	* micro cheap inside
+	* vibro damper
+
+--------------abstract----------------------------
+
+level 1 = Tennis Raquet with HeadSize 630 cm**2 and Strings 
+level 2 = Raquet with strings
+Level 3 = Raquet to play some sport
+Level 4 = Some Object with unknown geometry
+		
+--------------
