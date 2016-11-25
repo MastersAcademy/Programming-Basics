@@ -4,14 +4,14 @@
 ------------
 _Class = Tennis Racquet_   
 
-Methods:
+**Methods:**
 
 * set GripSize,
 * set Head size,
 * set Weight,
 * set Brand
 
-Objects:
+**Objects:**
 
 * Tennis racquet with GripSize = 4 3/8, Head size = 630 cm**2, Weight = 320 g, Brand = Babolat
 * Tennis racquet with GripSize = 4 1/2, Head size = 690 cm**2, Weight = 290 g, Brand = Wilson
@@ -22,11 +22,11 @@ _Racquet for squash_
 
 Class Racquet for squash = Class Tennis raquet + add another geometry of head
 
-Method: 
+**Method:** 
 
 * change geometry of head
 
-Object: 
+**Object:** 
 
 * Racquet for squash with triangle geometry with GripSize = 3, Head size = 450 cm**2, Weight = 250 g, Brand = Nike
 
@@ -34,14 +34,14 @@ Object:
 -------------------
 _Class = Tennis Racquet_   
 
-public:
+**public:**
 
 * GripSize,
 * Head size,
 * Weight,
 * Brand
 
-protected:
+**protected:**
 
 * string tension
 * material of racquet
