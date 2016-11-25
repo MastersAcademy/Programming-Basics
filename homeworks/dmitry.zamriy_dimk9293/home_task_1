@@ -1,0 +1,43 @@
+#foreword: I'm gettong 403 error on git gush. Still investigating
+
+"""QUESTIONS
+1. how to type < ' > character? e.g. "Let's start"
+2. how to return summary in nice (one-line) view?
+
+desirable features (for later)
+1. add int fields' input validation
+2. add yes/no questions. print corresponding answers. e.g. "We need some info. Are you ready to start? Y/N.
+If Y - print first question. If N - print _Good bye_ """
+
+from Tools.scripts.treesync import raw_input
+import fileinput
+
+#Survey
+print('Hello. We would like you to answer 7 simple questions in order to send you only interesting IT articles in your '
+      'mail list. Lets"s start')
+name_string = raw_input('#1 What is your name?')
+country_string = raw_input('#2 What is the name of the country you are currently living in?')
+age_int = raw_input('#3 How old are you?')
+pos_string = raw_input('#4 What is your current position in IT?')
+prod_string = raw_input('#5 Are you working for outsource or product company?')
+xp_bool = raw_input('#6 How many years of IT experience do you have?')
+event_string = raw_input('#7 Are you interested in online/offline IT events?')
+comment_string = raw_input('Leave your comment if you have')
+
+#Summary
+summary_line_1 = 'Ok, here is your summary:'
+summary_line_2 = "Your name is " + name_string + "and you are " + age_int + "years old "
+summary_line_3 = "You live in " + country_string
+summary_line_4 = "You work for " + prod_string + "company as " + pos_string + "and your IT experience - " + xp_bool + "year(s)"
+
+print(summary_line_1)
+print(summary_line_2)
+print(summary_line_3)
+print(summary_line_4)
+
+#Writing
+file = open('creative.txt', 'w')
+file.write(summary_line_1)
+file.write(summary_line_2)
+file.write(summary_line_3)
+file.write(summary_line_4)
