@@ -8,16 +8,16 @@
 1. Щєтина
 2. Платформа, для кріплення щєтини
 
-![Щітка звичайна](/homework/Python/homework-3/img/shchetka_1.jpg)
+![Щітка звичайна](/homeworks/boris.larioshin_larioshin-boris/homework-3/img/shchetka_1.jpg)
 #### Об'єкт:
 Зубна щітка "Colgate"
 
-![Щітка зубна](/homework/Python/homework-3/img/shchetka_2.jpg)
+![Щітка зубна](/homeworks/boris.larioshin_larioshin-boris/homework-3/img/shchetka_2.jpg)
 
 #### Наслідування:
 Щітка -> Зубна щітка -> Електрична зубна щітка.
 
-![Щітка зубна електрична](/homework/Python/homework-3/img/shchetka_3.jpg)
+![Щітка зубна електрична](/homeworks/boris.larioshin_larioshin-boris/homework-3/img/shchetka_3.jpg)
 
 #### Інкапсуляція
 Як відбувається чищення електричною зубною щіткою сховано від користувача.
