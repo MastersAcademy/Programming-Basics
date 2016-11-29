@@ -1,13 +1,17 @@
-###Class: Computer
+###Class:
+Computer
 
-###Object: A computer is a device that can be instructed to carry out an arbitrary set of arithmetic or logical operations automatically.
+###Object:
+A computer is a device that can be instructed to carry out an arbitrary set of arithmetic or logical operations automatically.
 
-###Inheritance: Laptops, Tablets, MainFrames, SmartPhones
+###Inheritance:
+Laptops, Tablets, MainFrames, SmartPhones
 
-###Encapsulation: The ability of computers to follow a sequence of operations, called a program.
+###Encapsulation:
+The ability of computers to follow a sequence of operations, called a program.
 
-###Polymorphism: The defining feature of computers is that they can be programmed. That is to say that some type of instructions (the program) can be given to the computer, and it will process them.
-
+###Polymorphism:
+The defining feature of computers is that they can be programmed. That is to say that some type of instructions (the program) can be given to the computer, and it will process them.
 
 ### SOLID
 #S.
