@@ -1,1 +1,0 @@
-Dmytro Zamosenchuk's home folder
