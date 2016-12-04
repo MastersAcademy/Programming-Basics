@@ -1,0 +1,5 @@
+Your name is: Bohdan 
+ You live in: Cherkassy 
+ You are: 21 years old 
+ Your street is named: Checkhova 211-5
+Your job preferences are: ['software developer', 'web developer', 'Python developer', 'Ruby developer']

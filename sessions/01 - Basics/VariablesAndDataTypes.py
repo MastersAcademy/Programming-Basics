@@ -6,7 +6,7 @@ comment.
 """
 
 # Defining variables
-hello_string = 'Hello'
+hello_string = 'Hell o'
 world_string = 'World'
 one_int = 1
 two_int = 2
@@ -17,7 +17,7 @@ bool_true = True
 print('--- === Printing === ---')
 print(hello_string)
 print(hello_string[1])
-
+# 
 # Data types
 print('')
 print('--- === Data types === ---')
@@ -41,8 +41,8 @@ print(str(pi_float + three_int) + ' ' + str((pi_float + three_int).__class__))
 
 
 # Reassignments
-print("Hello world old: " + hello_world_one)
-hello_world_one = "Hello World Reassigned"
-print("Hello world new: " + hello_world_one)
-hello_world_one = 125
-print("Hello world integer: %i" % hello_world_one)
+# print("Hello world old: " + hello_world_one)
+# hello_world_one = "Hello World Reassigned"
+# print("Hello world new: " + hello_world_one)
+# hello_world_one = 125
+# print("Hello world integer: %i" % hello_world_one)
