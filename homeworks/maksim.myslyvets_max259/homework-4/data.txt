@@ -1,0 +1,11 @@
+name: Max
+surname: Myslyvets
+age: 36
+login: max259
+adult
+===============================
+Dictionary
+{'name': 'Max', 'surname': 'Myslyvets', 'login': 'max259', 'age': 36}
+===============================
+Set
+{'Max', 'max259', 36, 'Myslyvets'}
