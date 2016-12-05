@@ -1,5 +1,5 @@
 import os, datetime
-import urllib3
+#import urllib3
 
 days = range(31)
 month = range(12)
