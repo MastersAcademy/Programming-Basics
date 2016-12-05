@@ -1,0 +1,21 @@
+What is your name?
+Alex Protsiuk
+How old are you?
+27
+Where are you from?
+Cherkassy-City
+Your university name is ?
+Kharkiv Polytechnic University
+===Bonus Question===
+Do you like Code Academy lessons ?
+Yes! I like it very much.
+And now ?yes
+And now ?yes !
+And now ?YES !!!
+Very well ))
+===Your data is===
+Name: Alex Protsiuk
+Age: 27
+City: Cherkassy-City
+University: Kharkiv Polytechnic University
+Mind about CA lessons: Yes! I like it very much.
