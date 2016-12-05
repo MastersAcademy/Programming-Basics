@@ -5,7 +5,7 @@ days = range(31)
 month = range(12)
 
 cust_birth = dict()
-http = urllib3.PoolManager()
+#http = urllib3.PoolManager()
 
 mn = 0
 while mn == 0 :
