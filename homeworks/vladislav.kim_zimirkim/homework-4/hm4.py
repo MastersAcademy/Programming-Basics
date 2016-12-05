@@ -100,13 +100,14 @@ game_1 = input('Lets play a game? Y/N\n')
 while (game_1 != 'N') and (game_1 !='Y'):
     game_1 = input('You must say Yes(Y) or No(N)\n')
 
+
 if game_1 == 'Y':
     player = int(input('Input number in range 1..100\n'))
-    while (player<0) and (player>100) :
-        player = input('Just input number in range 1..100\n')   
+    while (player<0) or (player>100):
+        player = int(input('Just input number in range 1..100\n'))
+   
+
     rund_numb = random.randint(1,100)
-
-
     if player > rund_numb:
         print('You WIN! Your number %i bigger then my number %i' %(player,rund_numb))
     elif rund_numb > player:
@@ -123,8 +124,8 @@ for x in range(-10,10):
     if x<0:
         print(x)        
         break
-else:
-    print ('finish without break')
+    else:
+        print ('finish without break')
 
 
 for x in range(-10,10):
