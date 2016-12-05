@@ -14,6 +14,8 @@ dict1= {'Name': name,
 # print only values
 #print ("Dictionary only values: ", dict1.values())
 
+# homework-4
+
 if len(name) < 2:
     print ('Name too short!')
 elif len (name) > 2 and len (name) < 10:
