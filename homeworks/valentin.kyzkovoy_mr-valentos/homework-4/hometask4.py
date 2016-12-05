@@ -27,6 +27,8 @@ elif salary in range(2000, 5000):
     print('We will try to find but do not promise')
 elif salary in range(5000, 20000):
     print(check)
+else:
+    print('We can not help you bro')
 
 
 
