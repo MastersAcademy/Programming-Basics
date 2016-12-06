@@ -64,7 +64,6 @@ dict_a ={"name":name,"eyes":age}
 
 
 
-
 dict_b = {"city":hair, "work":eyes}
 print(dict_b)
 
