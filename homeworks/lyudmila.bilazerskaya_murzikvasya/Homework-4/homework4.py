@@ -53,7 +53,6 @@ print(list_b)
 list_c =[list_a,list_b,age]
 
 
-
 print(list_c)
 
 set_a = set(list_a)
