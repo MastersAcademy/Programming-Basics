@@ -27,3 +27,4 @@ while:
     if i == 19:
         break
     i++
+print("Good buy")
