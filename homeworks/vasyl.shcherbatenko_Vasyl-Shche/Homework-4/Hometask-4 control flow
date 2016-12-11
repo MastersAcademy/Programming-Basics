@@ -1,0 +1,45 @@
+import random
+print('Hello user')
+print('*------------=========----------*')
+name=input('Please tell me please your name: ')
+gender=input('Tell me please your gender, Man or Woman ')
+if gender=='M' or gender=='Man' or gender=='m':
+    print('You man')
+elif gender=='W' or gender=='Woman'or gender=='w':
+    print('You woman')
+
+neighbors=input('Do you have neighbors y/n ')
+if neighbors=='y':
+    neighbors1=input('What are their neighbors? ')
+elif neighbors=='n':
+    print('Where do you live?')
+
+age=int(input('How old are you '))
+if age in range(0,12):
+    print('Child')
+elif age in range(12,16):
+    print('Teenage')
+elif age in range(16,21):
+    print('Young')
+elif age in range(21,60):
+    print('mature ')
+elif age>60:
+    print('Old')
+
+# Try to guess the number from 0 to 10
+ran=random.randint(0,10)
+print(ran)
+
+while True:
+    users = int(input('Enter the number '))
+    if users>ran:
+        print('Your figure is greater than our')
+    if users<ran:
+        print('your figure less than our')
+    if users==ran:
+        print('you win')
+
+    if not (ran!=users):
+        break;
+
+
