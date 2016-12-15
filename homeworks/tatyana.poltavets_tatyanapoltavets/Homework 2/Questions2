@@ -1,0 +1,14 @@
+human = {
+    'name': input("What is your name? "),
+    'age': int(input("How old are you? ")),
+    'city': input("Where do you live? "),
+    'list': ['32 teeth', '2 hands', '2 legs']
+}
+
+print("So your name is %s, your are %i,"
+      "and you live in %s" % (human['name'], human['age'], human['city']))
+
+stuff = ""
+for v in human['list']:
+    stuff += v + ' '
+print("and you have " + stuff)
