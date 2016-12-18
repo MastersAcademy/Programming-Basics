@@ -1,4 +1,4 @@
-class mammals():
+class Mammals():
     def __init__(self, viviparous, warm_blooded, wool, mammals):
         self.viviparous = viviparous
         self.warm_blooded = warm_blooded
