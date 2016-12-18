@@ -1,4 +1,4 @@
-from washer import Washer
+from Washer import Washer
 
 class Washer_manual(Washer):
     def __init__(self, water,power,loading,mode):
