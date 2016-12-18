@@ -1,8 +1,8 @@
-from mammals import mammals
+from Mammals import Mammals
 
 
 
-class donkey(mammals):
+class Donkey(Mammals):
     def __init__(self, viviparous, warm_blooded, wool, mammals, increased_endurance, ruggledness, long_ears):
         self.increased_endurance = increased_endurance
         self.ruggledness = ruggledness
