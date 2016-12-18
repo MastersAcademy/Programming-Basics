@@ -1,8 +1,8 @@
 class Car:
 
     def __init__(self):
-        self.color = 'string'
-        self.petrol = 'string'
+        self.color = 'Color'
+        self.petrol = 'Petrol'
         self.__electric_current = 'car battery'
 
     def colors(self, col1):
