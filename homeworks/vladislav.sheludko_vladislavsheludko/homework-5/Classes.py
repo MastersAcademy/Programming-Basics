@@ -24,7 +24,7 @@ class MyCar(Car):
 
     def __init__(self):
         Car.__init__(self)
-        self.engine = '350 h.m.'
+        self.engine = '350 h.p.'
         self.gear_box = 6
         self.speed = '120 mph'
 
