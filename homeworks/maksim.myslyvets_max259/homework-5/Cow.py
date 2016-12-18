@@ -1,8 +1,8 @@
-from mammals import mammals
+from Mammals import Mammals
 
 
 
-class horse(mammals):
+class Cow(Mammals):
     def __init__(self, viviparous, warm_blooded, wool, mammals, giving_meat, geaving_milk,):
         self.increased_endurance = giving_meat
         self.ruggledness = geaving_milk
