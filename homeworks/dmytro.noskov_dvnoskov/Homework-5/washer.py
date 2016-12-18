@@ -1,4 +1,4 @@
-class washer():
+class Washer():
     def __init__(self, water,power,loading,mode):
         self.water = water  #hot,cold
         self.power = power   #vat

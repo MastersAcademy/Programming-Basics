@@ -1,8 +1,8 @@
-from washer import washer
+from washer import Washer
 
-class washer_manual(washer):
+class Washer_manual(Washer):
     def __init__(self, water,power,loading,mode):
-       super(washer_manual, self).__init__(water,power,loading,mode)
+       super(Washer_manual, self).__init__(water,power,loading,mode)
 
 #    def __str__(self):
 #        return "water: %s, power: %s, loading:%s, mode: %s,extraction :%s" %(self.water,self.power,self.loading,self.mode,self.extraction)

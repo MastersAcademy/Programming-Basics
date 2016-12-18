@@ -1,8 +1,8 @@
-from washer import washer
+from washer import Washer
 
-class washer_auto(washer):
+class Washer_auto(Washer):
     def __init__(self, water,power,loading,mode,extraction):
-        super(washer_auto, self).__init__(water,power,loading,mode)
+        super(Washer_auto, self).__init__(water,power,loading,mode)
         self.extraction = extraction    # 100--1000 turnover/min
 
 #    def __str__(self):
