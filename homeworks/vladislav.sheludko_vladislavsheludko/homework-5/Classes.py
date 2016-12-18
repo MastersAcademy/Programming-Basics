@@ -1,8 +1,8 @@
 class Car:
 
     def __init__(self):
-        self.color = "Red"
-        self.petrol = "10 L/62mph"
+        self.color = 'string'
+        self.petrol = 'string'
         self.__electric_current = 'car battery'
 
     def colors(self, col1):
@@ -31,9 +31,9 @@ class MyCar(Car):
 obj1 = Car()
 print(obj1.color)
 print(obj1.petrol)
-obj1.colors("Red")
+obj1.colors("Blue")
 print(obj1.color)
-obj1.petrols("Red")
+obj1.petrols("6 L/62 mph")
 print(obj1.petrol)
 
 obj2 = MyCar()
