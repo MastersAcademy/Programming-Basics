@@ -11,7 +11,6 @@ class Radiophone_sales_department(Wired_phone):
     def convert_conversation_into_text_document(self):
         print('You have no access rights to convert conversation.')
 
-
 phone_sales = Radiophone_sales_department('Color: brown', 'Model:You have no access rights to this information', 'Inventory number: you have no access rights to this information', 'Appointment: you have no access rights to this information', 'Can call only' )
 print('PHONE SALES')
 print(phone_sales.color)
