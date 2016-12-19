@@ -15,27 +15,27 @@ while n:
     n = int(input('\n'))
 
     if n == 1:
-        grip_size = int(input('Введите размер ручки от 1 до 5'))
-        square_head = int(input('\nВведите площалдь головы от 600 до 700'))
-        weight = int(input('\nВведите вес от 300 до 400 гр'))
-        brand = input("\nВведите торговую марку 'Head', 'Wilson', 'Babolat', 'Prince'")
+        grip_size = int(input('Input length of grip from 1 to 5'))
+        square_head = int(input('\nInput size of head from 600 to 700 sq.cm'))
+        weight = int(input('\nInput weight from 300 to 400 gr'))
+        brand = input("\nInput trade mark 'Head', 'Wilson', 'Babolat', 'Prince'")
         racket_without_price = TennisRacket(grip_size, square_head, weight, brand)
         list_of_rackets[counter] = racket_without_price.add_racket()
         counter += 1
     elif n == 2:
-        grip_size = int(input('Введите размер ручки от 1 до 5'))
-        square_head = int(input('\nВведите площалдь головы от 600 до 700'))
-        weight = int(input('\nВведите вес от 300 до 400 гр'))
-        brand = input("\nВведите торговую марку 'Head', 'Wilson', 'Babolat', 'Prince'")
-        price = int(input('\nВеедите цену ракетки в долларах'))
+        grip_size = int(input('Input length of grip from 1 to 5'))
+        square_head = int(input('\nInput size of head from 600 to 700 sq.cm'))
+        weight = int(input('\nInput weight from 300 to 400 gr'))
+        brand = input("\nInput trade mark 'Head', 'Wilson', 'Babolat', 'Prince'")
+        price = int(input('\nInput price in dollars'))
         racket_with_price = TennisRacketPrice(grip_size, square_head, weight, brand)
         list_of_rackets[counter] = racket_with_price.add_price(price)
         counter += 1
     elif n == 0:
         break
     else:
-        print('Неккоректный ввод')
+        print('Uncorrect input')
 
 
 for key, val in list_of_rackets.items():
-    print('Номер ракетки в списке', key,  ' Сохраненные параметры ракетки ', val)
+    print('Number of racket in list', key,  ' Saved parameters of racket ', val)
