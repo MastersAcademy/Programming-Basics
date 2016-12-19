@@ -1,18 +1,27 @@
-from Iphone_4s import Iphone_4s
+from MobileTelephone import  MobilePhone
 
 
-class Iphone_5(Iphone_4s):
+class IphoneFive(MobilePhone):
 
 
-    def __init__(self, model, version, screen, width, height, the_weight, camera):
-        Iphone_4s.__init__(self, model, version, screen, width, height, the_weight, camera)
-        self.model = model
-        self.version = version
-        self.screen = screen
-        self.width = width
-        self.height = height
-        self.the_weight = the_weight
-        self.camera = camera
+    def __init__(self, model, version, screen, width, height, the_weight, camera, cpu):
+        MobilePhone.__init__(self, model, version, screen, width, height, the_weight, camera)
+        self.cpu = cpu
 
-#mobile2 = Iphone_5(model='Iphone 5', version='5', screen='4', width='58.6 mm', height='123.8 mm', the_weight='112 grams', camera='8 px')
-#print(mobile2.screen)
+
+    def __str__(self):
+        return 'model: %s, version: %s, screen: %s, width: %s, height: %s, the weight: %s, camera: %s, video resolution: %s, CPU: $s' % (self.model, self.version, self.screen, self.width, self.height, self.the_weight, self.camera, self.cpu)
+
+
+    def inclusion_mobile(self):
+        self.on = 'on'
+        self.off = 'off'
+
+        inclusion = str(input('Turn on the phone '))
+
+        if self.on == inclusion:
+            print('You turn the phone on')
+        elif inclusion != None:
+            print('Blank lines are not accept')
+        else:
+            print('Try again')

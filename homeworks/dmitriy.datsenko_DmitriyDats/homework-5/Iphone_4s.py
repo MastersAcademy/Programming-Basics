@@ -1,18 +1,15 @@
-class Iphone_4s():
+from MobileTelephone import MobilePhone
 
 
-    def __init__(self, model, version, screen, width, height, the_weight, camera):
-        self.model = model
-        self.version = version
-        self.screen = screen
-        self.width = width
-        self.height = height
-        self.the_weight = the_weight
-        self.camera = camera
+class IphoneFourS(MobilePhone):
 
+
+    def __init__(self, model, version, screen, width, height, the_weight, camera, video_resolution):
+        MobilePhone.__init__(self, model, version, screen, width, height, the_weight, camera)
+        self.video_resolution = video_resolution
 
     def __str__(self):
-        return 'model: %s, version: %s, screen: %s, width: %s, height: %s, the weight: %s, camera: %s' % (self.model, self.version, self.screen, self.width, self.height, self.the_weight, self.camera)
+        return 'model: %s, version: %s, screen: %s, width: %s, height: %s, the weight: %s, camera: %s, video resolution: %s' % (self.model, self.version, self.screen, self.width, self.height, self.the_weight, self.camera, self.video_resolution)
 
     def inclusion_mobile(self):
         self.on = 'on'
@@ -74,10 +71,3 @@ class Iphone_4s():
             print('Not that')
         else:
             print('Stronger push')
-
-
-#mobile = Iphone_4s(model='Iphone 4S', version='5', screen='3.5', width='58.6 mm', height='115.2 mm', the_weight='140 grams', camera='8 px')
-#mobile.inclusion_mobile()
-#mobile.menu_button()
-#mobile.icons()
-#mobile.shutdown_mobile()
