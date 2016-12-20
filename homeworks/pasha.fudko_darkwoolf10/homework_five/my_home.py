@@ -1,10 +1,14 @@
 from addition import Home
 
-class my_home(Home):
-    def __init__(self, wall, roof, doors, windows, create_new_room):
-        self.create_new_room = create_new_room
+class MyHome(Home):
+    def __init__(self, wall, roof, doors, windows,rooms, create_new_room):
+        Home.__init__(self, wall, roof, doors, windows, rooms, "my_home")
+        self.addRooms()
 
-    def create_room(self):
+    def addRooms(self):
+        self.rooms +=1
         return "create new room!"
+
+
 
 
