@@ -1,4 +1,3 @@
-#Registation client in bank, and open deposit
 print('-------------------------------')
 name = input("Enter your name:")
 surname = input("Enter your surname:")
