@@ -5,7 +5,7 @@ class Washer_auto(Washer):
         self.extraction = extraction  # 100--1000 turnover/min
     def run_on(self):
         print('start')
-        self.power_run()
+        self._power_run()
         if self.loading == '1':
             print('word loading 1 kg:')
         elif self.loading < '5':

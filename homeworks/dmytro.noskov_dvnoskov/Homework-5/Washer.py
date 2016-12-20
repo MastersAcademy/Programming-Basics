@@ -6,5 +6,5 @@ class Washer():
         self.mode = mode  # auto,manual
 
 
-    def power_run(self):
-        return print('power equipment:%s \n encapsulation power equipment = 500 Vat' % (self.power))
+    def _power_run(self):
+        return print('power equipment:%s \nencapsulation power equipment = 500 Vat' % (self.power))

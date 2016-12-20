@@ -2,7 +2,7 @@ from Washer import Washer
 class Washer_manual(Washer):
      def run_on(self):
          print('start')
-         self.power_run()
+         self._power_run()
          if self.loading == '0':
               print('not loading kg:')
          else:
