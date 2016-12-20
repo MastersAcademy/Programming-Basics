@@ -1,4 +1,4 @@
-class blender(object):
+class Blender(object):
     def __init__(self, brand, wattage, color, material, size, weight):
         self.brand = brand
         self.wattage = wattage
@@ -7,7 +7,7 @@ class blender(object):
         self.size = size
         self. weight = weight
 
-    def description_of_blender(self):
+    def description_of_Blender(self):
         print("-------------------------------------")
         print("The brand is",self.brand)
         print("The wattage is",self.wattage, "W")

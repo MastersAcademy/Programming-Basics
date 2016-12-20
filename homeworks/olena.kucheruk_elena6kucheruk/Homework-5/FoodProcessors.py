@@ -1,11 +1,11 @@
-from blender import blender
+from Blender import Blender
 
-class Food_Processors(blender):
+class FoodProcessors(Blender):
     def __init__(self, brand, wattage, color, material, size, weight, have_additional_function):
-        blender.__init__(self, brand, wattage, color, material, size, weight)
+        Blender.__init__(self, brand, wattage, color, material, size, weight)
         self.have_additional_function = have_additional_function
 
-    def description_of_food(self):
+    def description_of_FoodProcessors(self):
         print("-------------------------------------")
         print("The brand is", self.brand)
         print("The wattage is", self.wattage, "W")
@@ -23,7 +23,7 @@ class Food_Processors(blender):
         print("-------------------------------------")
         print ("Caution. Do not reveal the panel. It may be dangerously for health.")
 
-Food_Processors1 = Food_Processors ('Kenwood', '1400', 'white', 'steal', '40', '3', 'have')
-Food_Processors1.description_of_food()
-Food_Processors1.in_the_shop()
-Food_Processors1.what_are_intersting_inside()
+FoodProcessors1 = FoodProcessors ('Kenwood', '1400', 'white', 'steal', '40', '3', 'have')
+FoodProcessors1.description_of_FoodProcessors()
+FoodProcessors1.in_the_shop()
+FoodProcessors1.what_are_intersting_inside()
