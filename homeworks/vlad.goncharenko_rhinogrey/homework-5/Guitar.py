@@ -5,9 +5,7 @@ class Guitar:
     using = 'used for playing music'
 
     def __init__(self):
-        self.__string_construction = 'blabh blah blah blah'
-        self.__tree_structure = 'blah baaalall blah'
-        self.__assembling_process = '5$ in a day worker'
+        self.__sound = 'trrruuuuummmm!!!!'
 
     def play(self):
-        print('trrrrruuuuum!!')
+        print(self.__sound)
