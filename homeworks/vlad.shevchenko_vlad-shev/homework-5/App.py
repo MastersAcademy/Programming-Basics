@@ -10,4 +10,4 @@ print(smart_tv.rise_default_volume())
 
 #Encapsulation
 print(smart_tv.check_usb())
-# print(ussr_tv.chek_internet()) 'TV' object has no attribute 'chek_internet'
+# print(ussr_tv.check_internet()) 'TV' object has no attribute 'check_internet'
