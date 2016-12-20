@@ -1,0 +1,7 @@
+like: y
+age: 21
+phone: 212121
+place: here
+cake: All
+email: e@ee.ee
+name: Olya
