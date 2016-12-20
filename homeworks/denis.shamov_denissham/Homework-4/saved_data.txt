@@ -1,0 +1,13 @@
+Name - Denis, Second name - Shamov, age - 27, City - Cherkassy, 
+{"wifes_dob": "01.09.1989", "sons_dob": "03.03.2015", "wifes_name": "Yulia", "sons_name": "Bohdan"}Shamd1989@gmail.com
+0
+5
+0
+1
+4
+8
+2
+4
+0
+4
+Automobiles
