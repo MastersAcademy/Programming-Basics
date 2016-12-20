@@ -1,0 +1,6 @@
+ === Information about user === 
+Age: 12
+Answer: 42
+Salary: 12345
+Full name: Qwe Rty
+ === End of file === 
