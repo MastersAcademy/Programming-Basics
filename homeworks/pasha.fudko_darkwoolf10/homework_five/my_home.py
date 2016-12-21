@@ -7,7 +7,12 @@ class MyHome(Home):
 
     def addRooms(self):
         self.rooms +=1
-        return "create new room!"
+        print("create new room!")
+
+    def balcony(self):
+        self.terrace = True
+
+
 
 
 
