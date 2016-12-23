@@ -1,0 +1,9 @@
+Dmitry
+Lemeshko
+Cherkassy
+29
+Python ^j)
+
+ Dmitry Lemeshko, you are from Cherkassy.
+ You are 29 years old and you like Python ^j)
+Dictionary Card : {'DAge': 29, 'DFirstName': 'Dmitry', 'DHobby': 'Python ^j)', 'DPlace': 'Cherkassy', 'DLastName': 'Lemeshko'}You Are Young
