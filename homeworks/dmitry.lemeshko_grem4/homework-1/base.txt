@@ -1,8 +1,0 @@
-Dmytro
-Lemeshko
-Cherkasy
-29
-Python
-
- Dmytro Lemeshko, you are from Cherkasy.
- You are 29 years old and you like Python

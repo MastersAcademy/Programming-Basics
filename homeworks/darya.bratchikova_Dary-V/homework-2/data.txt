@@ -1,1 +1,0 @@
-Name, surname: Darya Bratchikova; age: 17; job: none; phone number: 01020304.

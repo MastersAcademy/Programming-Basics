@@ -1,1 +1,0 @@
-{'surname': 'Perenesenko', 'name': 'Vadim', 'age': '19'}

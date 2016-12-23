@@ -1,5 +1,0 @@
-Your name is illia 
-Your profession programmer 
-left hand fingers 1 
-right hand fingers 5 
-number of fingers 6 

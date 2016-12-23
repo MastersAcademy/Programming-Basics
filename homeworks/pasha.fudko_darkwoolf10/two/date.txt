@@ -1,5 +1,0 @@
-name -    passdlfkn
-surname - dslfsd
-age - 19
-date of birth - dsfjd
-city - dsfjdso
