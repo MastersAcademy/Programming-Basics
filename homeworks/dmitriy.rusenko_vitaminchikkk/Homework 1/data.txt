@@ -1,6 +1,0 @@
-Your data:
-name 2;
-surname 2;
-age 2;
-e-mail 2;
-login 2.

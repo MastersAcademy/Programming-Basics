@@ -1,6 +1,0 @@
-name: Vladimir
-last_name: Leschishin
-age: 25
-city: Cherkassy
-Dictionary
-{'age': '25', 'city': 'Cherkassy', 'name': 'Vladimir', 'last_name': 'Leschishin'}
