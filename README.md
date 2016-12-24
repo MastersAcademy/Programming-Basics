@@ -25,6 +25,7 @@ Terms and conditions
    * символ табуляції - чотири пробіли
    * перевід строки - Unix (LF)
  * Запитання можна задавати у Gitter
+ * [Python Style Guide](https://www.python.org/dev/peps/pep-0008/)
 
 
 Project structure
