@@ -1,4 +1,5 @@
 import json
+import xml.etree.cElementTree as ET
 
 class Dinamik(object):
     def __init__(self, amplifier, number_of_speakers, power, column_type):
@@ -16,3 +17,16 @@ class Dinamik(object):
 
     def tojson(self):
          return json.dumps(self.__dict__, sort_keys=True, indent=4)
+
+    def toxml(self):
+
+        din = ET.Element("din")
+        characteristic = ET.SubElement(din, "characteristic")
+
+        ET.SubElement(characteristic, "field1", name="amplifier").text = self.amplifier
+        ET.SubElement(characteristic, "field2", name="number_of_speakers").text = self.number_of_speakers
+        ET.SubElement(characteristic, "field3", name="power").text = self.power
+        ET.SubElement(characteristic, "field4", name="column_type").text = self.column_type
+
+        tree = ET.ElementTree(din)
+        tree.write("filexml.xml")
