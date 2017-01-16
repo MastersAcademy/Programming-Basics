@@ -3,7 +3,7 @@ from Home import Home
 from Studio import Studio
 import xml.etree.cElementTree as ET
 
-info = open("info.json", "w")
+info = open("filejson.json", "w")
 
 concert1 = Concert('TD 2400', '4', '800', 'Play loud')
 studio1 = Studio('TS 500', '3', '400', 'Play clear')
