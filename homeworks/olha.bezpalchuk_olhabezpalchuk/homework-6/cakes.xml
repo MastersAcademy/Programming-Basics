@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<object>
+	<Basic_cake>
+		<price>10</price>
+		<cooking_method>Default method: just mix all ingredients.['cream', 'dough']</cooking_method>
+		<name>Basic cake</name>
+		<ingredients>['cream', 'dough']</ingredients>
+	</Basic_cake>
+	<Esterhazy>
+		<price>20</price>
+		<cooking_method>buttercream spice with cognac and vanilla,  sandwich it between 4 or 5 layers of almond meringue dough</cooking_method>
+		<name>Esterhazy</name>
+		<ingredients>['buttercream', 'cognac', 'vanilla', 'almond meringue dough']</ingredients>
+	</Esterhazy>
+	<Croquembouche>
+		<jewelry>['silver cachous', '2 caramel hearts']</jewelry>
+		<price>30</price>
+		<cooking_method>Stir sugar and water (3 to 1) and make toffee. Place profiteroles in  pyramid manner, use toffee and hot water to fix them. Pour pyramid with remain toffee and beautify.</cooking_method>
+		<name>Croquembouche</name>
+		<ingredients>['4 batches of profiteroles', '4 cups of caster sugar', 'water']</ingredients>
+	</Croquembouche>
+</object>
