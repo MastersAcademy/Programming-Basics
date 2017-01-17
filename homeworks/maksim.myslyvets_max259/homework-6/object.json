@@ -1,0 +1,23 @@
+{
+    "mammals": "mammals",
+    "increased_endurance": "giving_meat",
+    "wool": "wool",
+    "warm_blooded": "warm_blooded",
+    "viviparous": "viviparous",
+    "ruggledness": "geaving_milk"
+}{
+    "mammals": "mammals",
+    "increased_endurance": "increased_endurance",
+    "wool": "wool",
+    "warm_blooded": "warm_blooded",
+    "viviparous": "viviparous",
+    "long_ears": "long_ears",
+    "ruggledness": "ruggledness"
+}{
+    "mammals": "mammals",
+    "increased_endurance": "race",
+    "wool": "wool",
+    "warm_blooded": "warm_blooded",
+    "viviparous": "viviparous",
+    "ruggledness": "carry_things"
+}
