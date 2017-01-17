@@ -19,13 +19,5 @@ croquembouche.change_cooking_method("Stir sugar and water (3 to 1) and make toff
 print(croquembouche)
 print(croquembouche.cooking_method)
 
-print('-------------------------------------')
-print(croquembouche.__dict__)
-print('---')
-dic = croquembouche.__dict__
-print(dic.keys())
-print('---')
-print(croquembouche.__module__)
-print('---')
 obj_to_json([basic_cake, esterhazy, croquembouche], 'cakes.json')
 obj_to_xml([basic_cake, esterhazy, croquembouche], 'cakes.xml')
