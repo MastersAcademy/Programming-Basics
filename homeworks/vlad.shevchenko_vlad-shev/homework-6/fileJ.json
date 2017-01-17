@@ -1,0 +1,16 @@
+{
+    "old_tv": {
+        "signal_type": "signal_type",
+        "audio_format": "some_format",
+        "video_format": "some_format",
+        "default_volume": 30
+    },
+    "smart_tv": {
+        "signal_type": "signal_type",
+        "internet_connection": false,
+        "audio_format": "some_format",
+        "usb_connection": true,
+        "video_format": "some_format",
+        "default_volume": 30
+    }
+}
