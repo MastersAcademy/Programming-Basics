@@ -1,0 +1,1 @@
+<washing_machine><characteristics><rpm characteristic="rpm">rmp/min</rpm><led_control characteristic="led_control">color or monochrome led control</led_control><self_clean characteristic="self_clean">self clean yes or not</self_clean></characteristics></washing_machine>

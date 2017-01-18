@@ -1,0 +1,5 @@
+{
+    "led_control": "color",
+    "self_clean": "yes",
+    "rpm": "1000"
+}
