@@ -1,0 +1,18 @@
+{
+    "Cargo_car1": {
+        "combustion_engine": "Petrol engine",
+        "can_move_cargo": "true",
+        "move_to": "Tbilisi",
+        "wheels_quantity": "4",
+        "type": "Cargo_car",
+        "move_from": "Cherkassy"
+    },
+    "Car1": {
+        "combustion_engine": "Petrol engine",
+        "can_move_passangers": "true",
+        "move_to": "Kiev",
+        "wheels_quantity": "4",
+        "type": "car",
+        "move_from": "Cherkassy"
+    }
+}
