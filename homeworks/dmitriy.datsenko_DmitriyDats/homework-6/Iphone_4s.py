@@ -3,11 +3,10 @@ import json
 import xml.etree.ElementTree as etree
 
 
-
 class IphoneFourS(MobilePhone):
-    def __init__(self, model, version, screen, width, height, the_weight, camera, video_resolution):
-        MobilePhone.__init__(self, model, version, screen, width, height, the_weight, camera)
-        self.video_resolution = video_resolution
+        def __init__(self, model, version, screen, width, height, the_weight, camera, video_resolution):
+            MobilePhone.__init__(self, model, version, screen, width, height, the_weight, camera)
+            self.video_resolution = video_resolution
 
         def __str__(self):
             return 'model: %s, version: %s, screen: %s, width: %s, height: %s, the weight: %s, camera: %s, video_resolution: %s' % (
@@ -19,7 +18,6 @@ obj = IphoneFourS('4s', '5', '3.8', '130mm', '20mm', '25mm', '8px', 'HD')
 
 # -------------------------------------- ====== JSON ====== --------------------------------------------
 
-
 # fileName = 'iphone4s.json'
 
 # accessMode = 'w'
@@ -29,7 +27,6 @@ obj = IphoneFourS('4s', '5', '3.8', '130mm', '20mm', '25mm', '8px', 'HD')
 # myFile = open(fileName, accessMode)
 # myFile.write(mobile_4s)
 # myFile.close()
-
 
 fileName = 'iphone4s.json'
 
@@ -44,7 +41,6 @@ mobile_4s = mobile(obj)
 myFile = open(fileName, accessMode)
 myFile.write(mobile_4s)
 myFile.close()
-
 
 # -------------------------------------- ====== XML ====== ----------------------------------------------
 
@@ -62,11 +58,3 @@ add_items(etree.SubElement(root, 'Iphone4s'),
 
 tree = etree.ElementTree(root)
 tree.write('iphone4s.xml', xml_declaration=True, encoding='utf-8')
-
-
-
-
-
-
-
-
