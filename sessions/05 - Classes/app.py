@@ -1,8 +1,8 @@
 from Admin import Admin
 from Subscriber import Subscriber
-from faker import Factory as FakerFaktory
+from faker import Factory as FakerFactory
 
-faker = FakerFaktory.create()
+faker = FakerFactory.create()
 
 admin1 = Admin(faker.email(), faker.first_name(), faker.last_name(), 'false', '')
 subscriber1 = Subscriber(faker.email(), faker.first_name(), faker.last_name())
