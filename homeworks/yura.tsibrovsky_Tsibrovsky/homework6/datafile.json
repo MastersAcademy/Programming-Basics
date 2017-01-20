@@ -1,0 +1,14 @@
+{
+    "can_play_mp3files": "CD",
+    "input_source": "CD",
+    "name": "Sony Walkman",
+    "output_power": "2 W",
+    "power_type": "AAA batteries",
+    "turn_type": "buttons"
+}{
+    "input_source": "reel tape",
+    "name": "Vesna",
+    "output_power": "5 W",
+    "power_type": "220 V",
+    "turn_type": "volume control"
+}
